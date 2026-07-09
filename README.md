@@ -8,7 +8,7 @@
 
 - **Device:** Poco C71
 - **SoC:** Unisoc T7250
-- **ROM:** LineageOS 22.2 (Android 16, GSI)
+- **ROM:** LineageOS 22.2 (Android 15, GSI)
 
 ---
 
@@ -39,7 +39,7 @@
 1. Download the [Poco C71 USB Driver](https://gsmusbdriver.com/poco-c71). Note: this doesn't come with a normal installer — you need to add it manually through **Device Manager**:
    - Open **Device Manager** → **Action → Add legacy hardware**
    - Click through the wizard, choose **Install the hardware that I manually select from a list**
-   - Select **Have Disk...** and point it to the extracted driver folder
+   - Select **Have Disk...** and point it to the INF File in the extracted driver folder
    - Finish the wizard to install it
 2. Run the `Latest-ADB-Installer.bat` file **as Administrator** and follow the on-screen instructions
 
