@@ -157,7 +157,7 @@ mkswap /data/swapfile
 swapon /data/swapfile
 ```
 
-2. To make the swap file persist across reboots:
+2. To make the swap file persist across reboots: (copy all the lines after mkdir -p /data/adb/service.d at once and paste them as one command)
 
 ```
 su
